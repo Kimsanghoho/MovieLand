@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+
+.di{
+	background-size: cover;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  visibility: hidden\9;
+  height: 970px;
+	
+}
+.frame{
+	margin: 10px 0 0 0;
+}
+.pre{
+	/* margin: -20% 0 0 40%; */
+	font-family: "돋음";
+	font-size: 1.1em;
+	font-family: '나눔고딕','NanumGothicRegular','돋움';
+	
+	
+
+}
+.table{
+	margin: 0 0 0 15%;
+}
+.td2{
+	opacity: 0.4;
+	background-color: #666666;
+}
+.img{
+	  display: inline-block;
+  zoom: 1;
+  width: 214px;
+  float: left;
+}
+.back{
+	 opacity: 0.4;
+}
+/* #bb{
+	display: inline-block;
+  zoom: 1;
+  width: 708px;
+  float: right;
+  padding: 1px;
+  padding-top: 17px;
+  padding-right : 20px;
+  padding-bottom: 21px;
+  background: url(../../images/bg.png) repeat;
+  color: #bab9b9;
+} */
+.textback{
+  display: inline-block;
+  zoom: 1;
+  width: 708px;
+  float: right;
+  padding: 23px;
+  padding-top: 17px;
+  padding-bottom: 21px;
+  background: url(/WebContent/images/bg.png) repeat;
+  color: #bab9b9;
+    background-image: url(https://www.primuscinema.com/Content/images/Common/bg.png);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: repeat;
+  background-repeat-y: repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+    bottom: 305px;
+    right: 239px;
+}
+
+.div1{
+	  margin: 0 auto;
+  width: 990px;
+  /* min-height: 104px; */
+  /* border: 1px solid #000000; */
+}
