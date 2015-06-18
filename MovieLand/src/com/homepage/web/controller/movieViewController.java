@@ -36,19 +36,19 @@ public class movieViewController extends HttpServlet {
 			movie3(request, response);
 			break;
 		case "/movie/view4.do":
-			movie2(request, response);
+			movie4(request, response);
 			break;
 		case "/movie/view5.do":
 			movie5(request, response);
 			break;
 		case "/movie/view6.do":
-			movie1(request, response);
+			movie6(request, response);
 			break;
 		case "/movie/view7.do":
-			movie1(request, response);
+			movie7(request, response);
 			break;
 		case "/movie/view8.do":
-			movie1(request, response);
+			movie8(request, response);
 			break;
 		default:
 			break;
@@ -147,6 +147,38 @@ public class movieViewController extends HttpServlet {
 		RequestDispatcher dispatcher2 = request.getRequestDispatcher("/view/movieView/movieView2.jsp");
 		dispatcher2.forward(request, response);
 	}
+	private void movie4(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String msg;
+		msg = "매드맥스: 분노의 도로"
+				+ "<br/>"
+				+ "Spy , 2015"
+				+ "<br/>"
+				+ "22세기 재난 블록버스터"
+				+ "<br/>"
+				+ "현장 요원들의 임무 수행을 돕는 CIA의 내근 요원 수잔 쿠퍼(멜리사 맥카시)<br/>"
+				+ "외모, 임무 수행 등 완벽한 최고의 요원 브래들리 파인(주드 로)의 파트너로 <br/>"
+				+ "임무를 수행을 하던 중, 핵무기 밀거래를 추진하는 마피아들에게 CIA 현장<br/>"
+				+ "요원들의 신분이 모두 노출되는 사건이 발생한다. 마피아들이 모르는 내근 요원<br/>"
+				+ "수잔은 CIA의 최대 위기를 극복하고 핵무기의 밀거래를 막기 위해 현장에 투입된다.<br/>"
+				+ "그러나, 그녀를 못 믿는 ‘자칭’ 최고의 요원 릭 포드(제이슨 스타뎀)가 그녀와 별개로<br/>"
+				+ "임무를 수행하면서 그녀의 미션은 위기에 직면하게 되는데…<br/>"
+				+"감독 / 출연 폴 페이그 / 주드 로,제이슨 스타뎀,멜리사 맥카시</br>"
+				+ "제작국가 / 장르미국 / 액션,코미디</br>"
+				+ "등급 / 개봉일  15세이상 / 2015.05.21</br>"
+				+ "상영시간 / 홈페이지122분 /</br>";
+				
+		String url = "http://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78207/78207127220_1024.jpg";
+		String img = "http://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78207/78207_214.jpg";
+		String iFrame = "https://www.youtube.com/embed/p-fDEhVBnv4";
+		request.setAttribute("msg", msg);
+		request.setAttribute("url", url);
+		request.setAttribute("img", img);
+		request.setAttribute("iFrame", iFrame);
+		
+		RequestDispatcher dispatcher2 = request.getRequestDispatcher("/view/movieView/movieView2.jsp");
+		dispatcher2.forward(request, response);
+	}
 	
 	
 	private void movie5(HttpServletRequest request, HttpServletResponse response)
@@ -171,6 +203,102 @@ public class movieViewController extends HttpServlet {
 		String url = " http://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78276/78276128378_1024.jpg";
 		String img = "http://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78276/78276_214.jpg";
 		String iFrame = "https://www.youtube.com/embed/PcaIQM2b-Uo";
+		request.setAttribute("msg", msg);
+		request.setAttribute("url", url);
+		request.setAttribute("img", img);
+		request.setAttribute("iFrame", iFrame);
+		
+		RequestDispatcher dispatcher2 = request.getRequestDispatcher("/view/movieView/movieView2.jsp");
+		dispatcher2.forward(request, response);
+	}
+	private void movie6(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String msg;
+		msg = "경성 학교"
+				+ "<br/>"
+				+ "Spy , 2015"
+				+ "<br/>"
+				+ "22세기 재난 블록버스터"
+				+ "<br/>"
+				+ "현장 요원들의 임무 수행을 돕는 CIA의 내근 요원 수잔 쿠퍼(멜리사 맥카시)<br/>"
+				+ "외모, 임무 수행 등 완벽한 최고의 요원 브래들리 파인(주드 로)의 파트너로 <br/>"
+				+ "임무를 수행을 하던 중, 핵무기 밀거래를 추진하는 마피아들에게 CIA 현장<br/>"
+				+ "요원들의 신분이 모두 노출되는 사건이 발생한다. 마피아들이 모르는 내근 요원<br/>"
+				+ "수잔은 CIA의 최대 위기를 극복하고 핵무기의 밀거래를 막기 위해 현장에 투입된다.<br/>"
+				+ "그러나, 그녀를 못 믿는 ‘자칭’ 최고의 요원 릭 포드(제이슨 스타뎀)가 그녀와 별개로<br/>"
+				+ "임무를 수행하면서 그녀의 미션은 위기에 직면하게 되는데…<br/>"
+				+"감독 / 출연 폴 페이그 / 주드 로,제이슨 스타뎀,멜리사 맥카시</br>"
+				+ "제작국가 / 장르미국 / 액션,코미디</br>"
+				+ "등급 / 개봉일  15세이상 / 2015.05.21</br>"
+				+ "상영시간 / 홈페이지122분 /</br>";
+				
+		String url = "http://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78277/78277128482_1024.jpg";
+		String img = "http://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78277/78277_214.jpg";
+		String iFrame = "https://www.youtube.com/embed/LZFUkqZhYls";
+		request.setAttribute("msg", msg);
+		request.setAttribute("url", url);
+		request.setAttribute("img", img);
+		request.setAttribute("iFrame", iFrame);
+		
+		RequestDispatcher dispatcher2 = request.getRequestDispatcher("/view/movieView/movieView2.jsp");
+		dispatcher2.forward(request, response);
+	}
+	private void movie7(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String msg;
+		msg = "령"
+				+ "<br/>"
+				+ "Spy , 2015"
+				+ "<br/>"
+				+ "22세기 재난 블록버스터"
+				+ "<br/>"
+				+ "현장 요원들의 임무 수행을 돕는 CIA의 내근 요원 수잔 쿠퍼(멜리사 맥카시)<br/>"
+				+ "외모, 임무 수행 등 완벽한 최고의 요원 브래들리 파인(주드 로)의 파트너로 <br/>"
+				+ "임무를 수행을 하던 중, 핵무기 밀거래를 추진하는 마피아들에게 CIA 현장<br/>"
+				+ "요원들의 신분이 모두 노출되는 사건이 발생한다. 마피아들이 모르는 내근 요원<br/>"
+				+ "수잔은 CIA의 최대 위기를 극복하고 핵무기의 밀거래를 막기 위해 현장에 투입된다.<br/>"
+				+ "그러나, 그녀를 못 믿는 ‘자칭’ 최고의 요원 릭 포드(제이슨 스타뎀)가 그녀와 별개로<br/>"
+				+ "임무를 수행하면서 그녀의 미션은 위기에 직면하게 되는데…<br/>"
+				+"감독 / 출연 폴 페이그 / 주드 로,제이슨 스타뎀,멜리사 맥카시</br>"
+				+ "제작국가 / 장르미국 / 액션,코미디</br>"
+				+ "등급 / 개봉일  15세이상 / 2015.05.21</br>"
+				+ "상영시간 / 홈페이지122분 /</br>";
+				
+		String url = "http://img.cgv.co.kr/Movie/Thumbnail/StillCut/000078/78267/78267127651_1024.jpg";
+		String img = "http://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78267/78267_214.jpg";
+		String iFrame = "https://www.youtube.com/embed/6K4u1mR0t8M";
+		request.setAttribute("msg", msg);
+		request.setAttribute("url", url);
+		request.setAttribute("img", img);
+		request.setAttribute("iFrame", iFrame);
+		
+		RequestDispatcher dispatcher2 = request.getRequestDispatcher("/view/movieView/movieView2.jsp");
+		dispatcher2.forward(request, response);
+	}
+	private void movie8(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String msg;
+		msg = "은밀한 유혹"
+				+ "<br/>"
+				+ "Spy , 2015"
+				+ "<br/>"
+				+ "22세기 재난 블록버스터"
+				+ "<br/>"
+				+ "현장 요원들의 임무 수행을 돕는 CIA의 내근 요원 수잔 쿠퍼(멜리사 맥카시)<br/>"
+				+ "외모, 임무 수행 등 완벽한 최고의 요원 브래들리 파인(주드 로)의 파트너로 <br/>"
+				+ "임무를 수행을 하던 중, 핵무기 밀거래를 추진하는 마피아들에게 CIA 현장<br/>"
+				+ "요원들의 신분이 모두 노출되는 사건이 발생한다. 마피아들이 모르는 내근 요원<br/>"
+				+ "수잔은 CIA의 최대 위기를 극복하고 핵무기의 밀거래를 막기 위해 현장에 투입된다.<br/>"
+				+ "그러나, 그녀를 못 믿는 ‘자칭’ 최고의 요원 릭 포드(제이슨 스타뎀)가 그녀와 별개로<br/>"
+				+ "임무를 수행하면서 그녀의 미션은 위기에 직면하게 되는데…<br/>"
+				+"감독 / 출연 폴 페이그 / 주드 로,제이슨 스타뎀,멜리사 맥카시</br>"
+				+ "제작국가 / 장르미국 / 액션,코미디</br>"
+				+ "등급 / 개봉일  15세이상 / 2015.05.21</br>"
+				+ "상영시간 / 홈페이지122분 /</br>";
+				
+		String url = "http://img.cgv.co.kr/Movie/Thumbnail/StillCut/000077/77552/77552127476_1024.jpg";
+		String img = "http://img.cgv.co.kr/Movie/Thumbnail/Poster/000077/77552/77552_214.jpg";
+		String iFrame = "https://www.youtube.com/embed/UctsnAxCEzI";
 		request.setAttribute("msg", msg);
 		request.setAttribute("url", url);
 		request.setAttribute("img", img);

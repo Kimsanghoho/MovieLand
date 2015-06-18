@@ -79,10 +79,10 @@
    <a href="<%=request.getContextPath()%>/movie/view6.do"" class="a"><img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78277/78277_214.jpg"  name="aa" /></a>
    </td>
    <td>
-   <a href="<%=request.getContextPath()%>/movie/view6.do"" class="a"><img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78267/78267_214.jpg"  name="aa" /></a>
+   <a href="<%=request.getContextPath()%>/movie/view7.do"" class="a"><img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000078/78267/78267_214.jpg"  name="aa" /></a>
    </td>
    <td>
-  <a href="<%=request.getContextPath()%>/movie/view6.do"" class="a"><img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000077/77552/77552_214.jpg"  name="aa" /></a>
+  <a href="<%=request.getContextPath()%>/movie/view8.do"" class="a"><img src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000077/77552/77552_214.jpg"  name="aa" /></a>
    </td>
   </tr>
   <tr>
